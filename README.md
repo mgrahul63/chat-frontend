@@ -1,16 +1,91 @@
-# React + Vite
+# 💬 Chat Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **React** frontend for a real-time chat application, built with **Vite**, **Tailwind CSS**, and integrated with **Passport.js** for authentication. This project is designed for fast, responsive performance with clean UI and real-time messaging capabilities.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [https://mgrahul.com](https://mgrahul.com)
 
-## React Compiler
+## 🖥️ Server Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 [Backend Code](https://ghithub.com/server.dnfkdnf)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# ⚙️ Tech Stack
+
+### Frontend
+
+- React 19
+- Vite
+- React Router DOM
+- Axios
+- Framer Motion
+- React Icons
+- React Hot Toast
+- Socket.io Client
+
+### Styling
+
+- Tailwind CSS v4
+- Tailwind CSS Vite Plugin
+
+### Authentication
+
+- Passport.js (supports local and social login)
+- Email/Password authentication
+- Social login via Google and other providers
+
+### Development Tools
+
+- ESLint
+- Vite Plugin React
+- React Hooks ESLint Plugin
+
+---
+
+# ✨ Features
+
+- Real-time chat with Socket.io
+- Modern, responsive UI
+- Smooth animations with Framer Motion
+- Toast notifications for user actions
+- Protected routes and authentication
+- Social login support (Google and others)
+- Easy-to-extend component structure
+
+---
+
+# 🔐 Authentication
+
+Users can log in via:
+
+- Email & Password
+- Social login (Google / Social Accounts)
+
+### Demo User Credentials
+
+Email: `test@gmail.com`  
+Password: `123456`
+
+You can also login using your social accounts: Google, Facebook, or GitHub.
+
+---
+
+# 📁 Project Structure
+
+```text
+chat-application/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── context/
+│   ├── hooks/
+│   ├── utils/
+│   └── App.jsx
+│
+├── package.json
+└── vite.config.js
+```
