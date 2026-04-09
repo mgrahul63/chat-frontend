@@ -11,7 +11,7 @@ const FrndHeader = ({ onClick, onCloseClick, profilePic, fullName }) => {
   const { selectedFriend } = useChat();
   const { onlineUsers } = useAuth();
   const status = onlineUsers.includes(selectedFriend?.id); // online/offline
-
+  console.log(status);
   const image =
     profilePic?.image != ""
       ? profilePic?.image

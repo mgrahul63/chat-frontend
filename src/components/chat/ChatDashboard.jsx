@@ -8,7 +8,7 @@ import DummyUI from "./dummyUi";
 
 const ChatDashboard = () => {
   const [toggle, setToggle] = useState(true);
-  const { selectedFriend } = useChat(); 
+  const { selectedFriend } = useChat();
   return (
     <div
       className={`px-5 h-[90vh] grid grid-cols-1 bg-gray-800

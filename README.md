@@ -1,20 +1,13 @@
 # 💬 Chat Application
 
-A modern **React** frontend for a real-time chat application, built with **Vite**, **Tailwind CSS**, and integrated with **Passport.js** for authentication. This project is designed for fast, responsive performance with clean UI and real-time messaging capabilities.
-
-## 🚀 Live Demo
-
-🔗 [https://mgrahul.com](https://mgrahul.com)
-
-## 🖥️ Server Repository
-
-🔗 [Backend Code](https://ghithub.com/server.dnfkdnf)
+A modern **real-time chat application** built with **React**, **Vite**, and **Tailwind CSS**.  
+This project provides a clean UI, fast performance, and real-time messaging using **Socket.io**, along with **Passport.js** authentication supporting both local and social login.
 
 ---
 
 # ⚙️ Tech Stack
 
-### Frontend
+## Frontend
 
 - React 19
 - Vite
@@ -25,18 +18,28 @@ A modern **React** frontend for a real-time chat application, built with **Vite*
 - React Hot Toast
 - Socket.io Client
 
-### Styling
+## Styling
 
 - Tailwind CSS v4
 - Tailwind CSS Vite Plugin
 
-### Authentication
+## Backend
 
-- Passport.js (supports local and social login)
-- Email/Password authentication
-- Social login via Google and other providers
+- Express.js
+- Socket.io
+- MongoDB
+- Mongoose
+- Cloudinary
 
-### Development Tools
+## Authentication
+
+- Passport.js
+- Email & Password Authentication
+- Google Login
+- GitHub Login
+- Facebook Login
+
+## Development Tools
 
 - ESLint
 - Vite Plugin React
@@ -46,35 +49,91 @@ A modern **React** frontend for a real-time chat application, built with **Vite*
 
 # ✨ Features
 
-- Real-time chat with Socket.io
-- Modern, responsive UI
-- Smooth animations with Framer Motion
+- Real-time messaging with Socket.io
+- Modern and responsive UI
+- Smooth animations using Framer Motion
 - Toast notifications for user actions
 - Protected routes and authentication
-- Social login support (Google and others)
-- Easy-to-extend component structure
+- Social login support (Google, GitHub, Facebook)
+- Clean and scalable component structure
+
+---
+
+# 📸 Project Screenshots
+
+## 🏠 Login Page
+
+![Login](public/login.png)
+
+---
+
+## 💬 Message Box
+
+![Message Box](public/messagebox.png)
+
+---
+
+# 🚀 How to Run the Project Locally
+
+## Step 1 — Clone Both Repositories
+
+### Frontend
+
+Frontend Repo:  
+https://github.com/mgrahul63/chat-frontend
+
+```bash
+git clone https://github.com/mgrahul63/chat-frontend.git
+cd chat-frontend
+npm install
+npm run dev
+```
+
+Frontend runs at:  
+http://localhost:5173
+
+---
+
+### Backend
+
+Backend Repo:  
+https://github.com/mgrahul63/chat-backend
+
+```bash
+git clone https://github.com/mgrahul63/chat-backend.git
+cd chat-backend
+npm install
+npm run server
+```
+
+Backend runs at:  
+http://localhost:4000
 
 ---
 
 # 🔐 Authentication
 
-Users can log in via:
+Users can log in using:
 
 - Email & Password
-- Social login (Google / Social Accounts)
+- Google
+- GitHub
+- Facebook
 
-### Demo User Credentials
+---
+
+# 🧪 Demo User Credentials
 
 Email: `test@gmail.com`  
 Password: `123456`
 
-You can also login using your social accounts: Google, Facebook, or GitHub.
+Or log in using your social accounts.
 
 ---
 
 # 📁 Project Structure
 
-```text
+```
 chat-application/
 │
 ├── public/
@@ -89,3 +148,16 @@ chat-application/
 ├── package.json
 └── vite.config.js
 ```
+
+---
+
+# 👨‍💻 Author
+
+**MD. Rahul Mia**  
+Jatiya Kabi Kazi Nazrul Islam University (JKKNIU)
+
+---
+
+# ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub.

@@ -6,7 +6,7 @@ const FriendCard = ({ friend, OnClick }) => {
   const { selectedFriend, unseenMessages, lastMessages } = useChat();
 
   const status = onlineUsers.includes(friend?.id); // online/offline
-
+  
   const count = unseenMessages[friend?.id];
 
   const lastMsg = lastMessages.find((msg) => msg.friendId === friend?.id);
